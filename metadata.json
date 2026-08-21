@@ -1,0 +1,8 @@
+{
+  "name": "The Last Swipe",
+  "description": "Zabawa na Wieczór Panieński w stylu Tinder: The Last Swipe - bitwa par ze zdjęciami przerobionymi na facetów, efektem swipu i finałowym odkryciem prawdziwej tożsamości uczestniczek.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
