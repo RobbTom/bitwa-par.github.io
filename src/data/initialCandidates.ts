@@ -33,12 +33,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Prawnik',
     fakeLocation: 'Warszawa',
     fakeBio:
-      'Prawnik, ale spokojnie – nie będę analizował regulaminu randki. Padel, boks i włoska kuchnia to mój sposób na dobry wieczór. ⚖️🍝',
+      'Prawnik, ale spokojnie – nie będę analizował regulaminu randki. ⚖️ Padel, boks i włoska kuchnia to mój sposób na dobry wieczór. 🍝',
     fakePhotoUrl: agataImg,
     realName: 'Agata',
     realAge: 28,
     realRole: 'Królowa Szos i Dobrego Stylu 🚗✨',
-    realQuote: 'Zawsze gotowa na spontaniczny wypad i wyśmienitą zabawę do rana!',
     realPhotoUrl: agataRealImg,
   },
 
@@ -49,12 +48,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Trener personalny',
     fakeLocation: 'Kraków',
     fakeBio:
-      'Buduję firmę wokół sportu i zdrowego stylu życia, a po godzinach uciekam w Karkonosze. Brakuje mi tylko kogoś do nieplanowanego wieczoru. 🏔️',
+      'Buduję firmę wokół sportu i zdrowego stylu życia 💪, a po godzinach uciekam w Karkonosze. Brakuje mi tylko kogoś do nieplanowanego wieczoru.',
     fakePhotoUrl: aniaLigezaImg,
     realName: 'Ania L.',
     realAge: 27,
     realRole: 'Wulkan Pozytywnej Energii ⚡💖',
-    realQuote: 'Uśmiech numer jeden i niezastąpiona dusza każdego towarzystwa!',
     realPhotoUrl: aniaLigezaRealImg,
   },
 
@@ -65,12 +63,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Doktorant fizyki',
     fakeLocation: 'Wrocław',
     fakeBio:
-      'Na co dzień badam rzeczy, których nie da się zobaczyć. Po godzinach czytam, gram jazz i szukam chemii, której fizyka jeszcze nie wyjaśniła. 🎷🔬',
+      'Na co dzień badam rzeczy, których nie da się zobaczyć 🔬. Po godzinach czytam, gram jazz 🎷 i szukam chemii, której fizyka jeszcze nie wyjaśniła.',
     fakePhotoUrl: aniaMytychImg,
     realName: 'Ania M.',
     realAge: 27,
     realRole: 'Mistrzyni Błyskotliwego Humoru 🤓🎉',
-    realQuote: 'Z nią nie ma nudy — rozbawi każdego w 3 sekundy!',
     realPhotoUrl: aniaMytychRealImg,
   },
 
@@ -81,12 +78,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Szef kuchni',
     fakeLocation: 'Poznań',
     fakeBio:
-      'Gotuję zawodowo, ale najbardziej lubię, gdy kuchnia zamienia się w pretekst do długiej kolacji i wina. Kto usiądzie naprzeciwko? 🍷',
+      'Gotuję zawodowo, ale najbardziej lubię, gdy kuchnia zamienia się w pretekst do długiej kolacji 🍷 i dobrego jedzenia. Kto usiądzie naprzeciwko?',
     fakePhotoUrl: kasiaGalonImg,
     realName: 'Kasia G.',
     realAge: 26,
     realRole: 'Czarująca Romantyczka 💐🌸',
-    realQuote: 'Rozdaje najszczersze uśmiechy, kwiaty i najcieplejsze komplementy!',
     realPhotoUrl: kasiaGalonRealImg,
   },
 
@@ -97,12 +93,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'DJ & producent muzyki',
     fakeLocation: 'Gdańsk / Trójmiasto',
     fakeBio:
-      'Gram, komponuję i czasem znikam w studiu na całe dnie. Nie obiecuję muzyki na pierwszej randce, ale druga będzie miała lepszy soundtrack. 🎧',
+      'Gram, komponuję i czasem znikam w studiu na całe dnie 🎧. Nie obiecuję muzyki na pierwszej randce, ale druga będzie miała lepszy soundtrack.',
     fakePhotoUrl: kasiaPietrucImg,
     realName: 'Kasia P.',
     realAge: 26,
     realRole: 'Królowa Charyzmy & Stylu 🔥🕶️',
-    realQuote: 'Magnetyczne spojrzenie i styl, którego po prostu nie da się podrobić!',
     realPhotoUrl: kasiaPietrucRealImg,
   },
 
@@ -113,12 +108,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Pilot',
     fakeLocation: 'Warszawa / Zanzibar',
     fakeBio:
-      'Zawodowo latam, prywatnie też lubię wysoko stawiać poprzeczkę. Masz paszport i odrobinę odwagi? Sprawdźmy, dokąd nas to zaprowadzi. ✈️🌴',
+      'Zawodowo latam ✈️, prywatnie też lubię wysoko stawiać poprzeczkę. Masz paszport i odrobinę odwagi? Sprawdźmy, dokąd nas to zaprowadzi 🌴.',
     fakePhotoUrl: klaudiaMaciagImg,
     realName: 'Klaudia',
     realAge: 28,
     realRole: 'Plażowa Bogini & Fanka Podróży 🌴🌊',
-    realQuote: 'Zawsze przywozi słońce, brązową opaleniznę i tropikalny nastrój!',
     realPhotoUrl: klaudiaMaciagRealImg,
   },
 
@@ -129,12 +123,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Architekt IT | McKinsey',
     fakeLocation: 'Podlasie / Warszawa',
     fakeBio:
-      'Po latach w korporacji łapię oddech na Podlasiu, pomagając rodzicom przy stadninie koni. Ambitny z natury i chyba trochę romantyk. 🐎',
+      'Po latach w korporacji łapię oddech na Podlasiu, pomagając rodzicom przy stadninie koni 🐎. Ambitny z natury i chyba trochę romantyk.',
     fakePhotoUrl: kobierskaImg,
     realName: 'Kobierska',
     realAge: 27,
     realRole: 'Klasa, Szyk i Elegancja 💎🍸',
-    realQuote: 'Zimna krew, wielkie serce i niezachwiany wdzięk w każdej sytuacji!',
     realPhotoUrl: kobierskaRealImg,
   },
 
@@ -145,12 +138,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Key Account Manager | EY',
     fakeLocation: 'Warszawa',
     fakeBio:
-      'W tygodniu garnitur i lotniska, w weekend pies i trasa rowerowa. Docelowo: domek na wsi i ktoś, dla kogo warto wracać z delegacji. 🚲',
+      'W tygodniu garnitur i lotniska ✈️, w weekend pies i trasa rowerowa. Docelowo: domek na wsi i ktoś, dla kogo warto wracać z delegacji.',
     fakePhotoUrl: magdaTomImg,
     realName: 'Magda',
     realAge: 27,
     realRole: 'Królowa Miejskiego Szyku 🌆🍹',
-    realQuote: 'Każde zwykłe wyjście na miasto zamienia w niezapomnianą przygodę!',
     realPhotoUrl: magdaTomRealImg,
   },
 
@@ -161,12 +153,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Barman & Sommelier',
     fakeLocation: 'Kraków',
     fakeBio:
-      'Hiszpania, Włochy, Portugalia, Australia – 4 języki i za dużo historii na jedną rozmowę. Gotuję naprawdę dobrze i mam plan: kolację i dobre whisky. 🍷',
+      'Hiszpania, Włochy, Portugalia, Australia – 4 języki i za dużo historii na jedną rozmowę. Gotuję naprawdę dobrze 🍳 i mam plan: kolację i dobre whisky.',
     fakePhotoUrl: mariaTomImg,
     realName: 'Maria',
     realAge: 26,
     realRole: 'Bistro Guru & Mistrzyni Toastów ☕🍷',
-    realQuote: 'Królowa aperitifów i najgłębszych rozmów do białego rana!',
     realPhotoUrl: mariaTomRealImg,
   },
 
@@ -177,12 +168,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Project Manager',
     fakeLocation: 'Poznań',
     fakeBio:
-      'Ambitny w pracy, ale najbardziej cenię moment, gdy na pierwszy plan wraca dom i wspólna kolacja. Wszystko zaczyna się od relacji. 🥂',
+      'Ambitny w pracy, ale najbardziej cenię moment, gdy na pierwszy plan wraca dom i wspólna kolacja. 🥂 Wszystko zaczyna się od relacji.',
     fakePhotoUrl: martaTomImg,
     realName: 'Marta T.',
     realAge: 28,
     realRole: 'Mistrzyni Parkietu & Uroku 💃✨',
-    realQuote: 'Kiedy wchodzi na parkiet, cała sala robi jej miejsce!',
     realPhotoUrl: martaTomRealImg,
   },
 
@@ -193,12 +183,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Fotograf & Twórca wideo',
     fakeLocation: 'Katowice / Śląsk',
     fakeBio:
-      'Łapię kadry i ulotne momenty w podróży. W weekendy górskie szlaki albo kajak. Kawa i spacer bez patrzenia na zegarek – napisz. 📸',
+      'Łapię kadry i ulotne momenty w podróży 📸. W weekendy górskie szlaki albo kajak. Kawa i spacer bez patrzenia na zegarek – napisz.',
     fakePhotoUrl: martaImg,
     realName: 'Marta',
     realAge: 27,
     realRole: 'Promienna Gwiazda Imprezy 🌟🥳',
-    realQuote: 'Czyste złoto i niezastąpiona przyjaciółka na każdą pogodę!',
     realPhotoUrl: martaRealImg,
   },
 
@@ -209,12 +198,11 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     fakeJob: 'Architekt krajobrazu',
     fakeLocation: 'Zakopane / Warszawa',
     fakeBio:
-      'Złoty chłopak z zamiłowaniem do architektury i szybkiej jazdy. Zawsze mam w kieszeni plan B i bilet na festiwal. 🏎️🎶',
+      'Złoty chłopak z zamiłowaniem do architektury i szybkiej jazdy 🏎️. Zawsze mam w kieszeni plan B i bilet na festiwal.',
     fakePhotoUrl: pysiaImg,
     realName: 'Pysia',
     realAge: 26,
     realRole: 'Królowa Wieczoru Panieńskiego 👑💄',
-    realQuote: 'Charyzma, wdzięk i absolutnie zero kompromisów na parkiecie!',
     realPhotoUrl: pysiaRealImg,
   },
 ];
