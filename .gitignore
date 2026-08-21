@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vite/
+.DS_Store
+*.local
+.env.local
+.env.*.local
+
+# Scratch folder with the old oversized PNGs, kept out of the repo.
+src/assets/images/_to_delete/
