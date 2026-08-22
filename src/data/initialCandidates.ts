@@ -26,7 +26,6 @@ import martaRealImg from '../assets/images/marta_baba.jpg';
 import pysiaRealImg from '../assets/images/pysia_baba.jpg';
 
 export const INITIAL_CANDIDATES: Candidate[] = [
-
   {
     id: 'candidate-agata',
     fakeName: 'Paweł',
@@ -89,12 +88,12 @@ export const INITIAL_CANDIDATES: Candidate[] = [
 
   {
     id: 'candidate-kasia-pietruc',
-    fakeName: 'Krystian',
+    fakeName: 'Mateusz',
     fakeAge: 25,
-    fakeJob: 'DJ & producent muzyki',
+    fakeJob: 'Barman',
     fakeLocation: 'Gdańsk / Trójmiasto',
     fakeBio:
-      'Gram, komponuję i czasem znikam w studiu na całe dnie 🎧. Nie obiecuję muzyki na pierwszej randce, ale druga będzie miała lepszy soundtrack.',
+      'Lubię dobrą atmosferę, ciekawe rozmowy i ludzi, którzy nie boją się spróbować czegoś nowego 🍸. Po pracy najchętniej odkrywam nowe miejsca i testuję kolejne smaki.',
     fakePhotoUrl: kasiaPietrucImg,
     realName: 'Kasia P.',
     realAge: 26,
@@ -134,12 +133,12 @@ export const INITIAL_CANDIDATES: Candidate[] = [
 
   {
     id: 'candidate-magda-tom',
-    fakeName: 'Filip',
+    fakeName: 'Mikołaj',
     fakeAge: 28,
-    fakeJob: 'Key Account Manager | EY',
+    fakeJob: 'Architekt',
     fakeLocation: 'Warszawa',
     fakeBio:
-      'W pracy dbam o dobre relacje z klientami 🤝, a po godzinach najbardziej cenię aktywny reset. Pies, rower i spontaniczny wyjazd brzmią lepiej niż kolejny wieczór przy laptopie.',
+      'Projektuję przestrzenie, w których dobrze się żyje 🏠. Po pracy najchętniej szukam inspiracji, dobrej kawy i miejsc, do których chce się wracać.',
     fakePhotoUrl: magdaTomImg,
     realName: 'Magda',
     realAge: 27,
@@ -149,12 +148,12 @@ export const INITIAL_CANDIDATES: Candidate[] = [
 
   {
     id: 'candidate-maria-tom',
-    fakeName: 'Mateusz',
+    fakeName: 'Krystian',
     fakeAge: 32,
-    fakeJob: 'Barman',
+    fakeJob: 'DJ & producent muzyki',
     fakeLocation: 'Kraków',
     fakeBio:
-      'Lubię dobrą atmosferę, ciekawe rozmowy i ludzi, którzy nie boją się spróbować czegoś nowego 🍸. Po pracy najchętniej odkrywam nowe miejsca i testuję kolejne smaki.',
+      'Gram, komponuję i czasem znikam w studiu na całe dnie 🎧. Nie obiecuję muzyki na pierwszej randce, ale druga będzie miała lepszy soundtrack.',
     fakePhotoUrl: mariaTomImg,
     realName: 'Maria',
     realAge: 26,
@@ -194,17 +193,16 @@ export const INITIAL_CANDIDATES: Candidate[] = [
 
   {
     id: 'candidate-pysia',
-    fakeName: 'Mikołaj',
+    fakeName: 'Filip',
     fakeAge: 29,
-    fakeJob: 'Architekt',
+    fakeJob: 'Key Account Manager | EY',
     fakeLocation: 'Zakopane / Warszawa',
     fakeBio:
-      'Projektuję przestrzenie, w których dobrze się żyje 🏠. Po pracy najchętniej uciekam w góry, szukam inspiracji i dobrego jedzenia. Zawsze mam jakiś plan, choć nie zawsze go realizuję.',
+      'W pracy dbam o dobre relacje z klientami 🤝, a po godzinach najbardziej cenię aktywny reset. Pies, rower i spontaniczny wyjazd brzmią lepiej niż kolejny wieczór przy laptopie.',
     fakePhotoUrl: pysiaImg,
     realName: 'Pysia',
     realAge: 26,
     realRole: 'Królowa Wieczoru Panieńskiego 👑💄',
     realPhotoUrl: pysiaRealImg,
   },
-
 ];
