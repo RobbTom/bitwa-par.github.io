@@ -26,14 +26,15 @@ import martaRealImg from '../assets/images/marta_baba.jpg';
 import pysiaRealImg from '../assets/images/pysia_baba.jpg';
 
 export const INITIAL_CANDIDATES: Candidate[] = [
+
   {
     id: 'candidate-agata',
     fakeName: 'Paweł',
     fakeAge: 28,
-    fakeJob: 'Prawnik',
+    fakeJob: 'Project Manager',
     fakeLocation: 'Warszawa',
     fakeBio:
-      'Prawnik, ale spokojnie – nie będę analizował regulaminu randki. ⚖️ Padel, boks i włoska kuchnia to mój sposób na dobry wieczór. 🍝',
+      'Ambitny w pracy, ale najbardziej cenię moment, gdy na pierwszy plan wraca dom i wspólna kolacja. 🥂 Wszystko zaczyna się od relacji.',
     fakePhotoUrl: agataImg,
     realName: 'Agata',
     realAge: 28,
@@ -88,7 +89,7 @@ export const INITIAL_CANDIDATES: Candidate[] = [
 
   {
     id: 'candidate-kasia-pietruc',
-    fakeName: 'Mateusz',
+    fakeName: 'Krystian',
     fakeAge: 25,
     fakeJob: 'DJ & producent muzyki',
     fakeLocation: 'Gdańsk / Trójmiasto',
@@ -105,10 +106,10 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     id: 'candidate-klaudia-maciag',
     fakeName: 'Krzysiek',
     fakeAge: 31,
-    fakeJob: 'Pilot',
+    fakeJob: 'Agent Nieruchomości',
     fakeLocation: 'Warszawa / Zanzibar',
     fakeBio:
-      'Zawodowo latam ✈️, prywatnie też lubię wysoko stawiać poprzeczkę. Masz paszport i odrobinę odwagi? Sprawdźmy, dokąd nas to zaprowadzi 🌴.',
+      'Na co dzień pomagam ludziom znaleźć ich miejsce na ziemi 🏠. Po pracy najchętniej uciekam w podróże i odkrywam nowe miejsca. Może kiedyś znajdziemy coś razem?',
     fakePhotoUrl: klaudiaMaciagImg,
     realName: 'Klaudia',
     realAge: 28,
@@ -120,10 +121,10 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     id: 'candidate-kobierska',
     fakeName: 'Kuba',
     fakeAge: 28,
-    fakeJob: 'Architekt IT | McKinsey',
+    fakeJob: 'Pilot',
     fakeLocation: 'Podlasie / Warszawa',
     fakeBio:
-      'Po latach w korporacji łapię oddech na Podlasiu, pomagając rodzicom przy stadninie koni 🐎. Ambitny z natury i chyba trochę romantyk.',
+      'Zawodowo latam ✈️, a prywatnie nie potrafię długo usiedzieć w jednym miejscu. Podróże, spontaniczne wypady i dobra kawa brzmią jak dobry plan.',
     fakePhotoUrl: kobierskaImg,
     realName: 'Kobierska',
     realAge: 27,
@@ -133,12 +134,12 @@ export const INITIAL_CANDIDATES: Candidate[] = [
 
   {
     id: 'candidate-magda-tom',
-    fakeName: 'Krystian',
+    fakeName: 'Filip',
     fakeAge: 28,
     fakeJob: 'Key Account Manager | EY',
     fakeLocation: 'Warszawa',
     fakeBio:
-      'W tygodniu garnitur i lotniska ✈️, w weekend pies i trasa rowerowa. Docelowo: domek na wsi i ktoś, dla kogo warto wracać z delegacji.',
+      'W pracy dbam o dobre relacje z klientami 🤝, a po godzinach najbardziej cenię aktywny reset. Pies, rower i spontaniczny wyjazd brzmią lepiej niż kolejny wieczór przy laptopie.',
     fakePhotoUrl: magdaTomImg,
     realName: 'Magda',
     realAge: 27,
@@ -148,12 +149,12 @@ export const INITIAL_CANDIDATES: Candidate[] = [
 
   {
     id: 'candidate-maria-tom',
-    fakeName: 'Mikołaj',
+    fakeName: 'Mateusz',
     fakeAge: 32,
-    fakeJob: 'Barman & Sommelier',
+    fakeJob: 'Barman',
     fakeLocation: 'Kraków',
     fakeBio:
-      'Hiszpania, Włochy, Portugalia, Australia – 4 języki i za dużo historii na jedną rozmowę. Gotuję naprawdę dobrze 🍳 i mam plan: kolację i dobre whisky.',
+      'Lubię dobrą atmosferę, ciekawe rozmowy i ludzi, którzy nie boją się spróbować czegoś nowego 🍸. Po pracy najchętniej odkrywam nowe miejsca i testuję kolejne smaki.',
     fakePhotoUrl: mariaTomImg,
     realName: 'Maria',
     realAge: 26,
@@ -165,10 +166,10 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     id: 'candidate-marta-tom',
     fakeName: 'Maciek',
     fakeAge: 30,
-    fakeJob: 'Project Manager',
+    fakeJob: 'Fotograf',
     fakeLocation: 'Poznań',
     fakeBio:
-      'Ambitny w pracy, ale najbardziej cenię moment, gdy na pierwszy plan wraca dom i wspólna kolacja. 🥂 Wszystko zaczyna się od relacji.',
+      'Najbardziej lubię łapać momenty, których nie da się zaplanować 📸. Po pracy aparat często zabieram na spacer albo spontaniczny wyjazd. Dobra kawa i ciekawa osoba zawsze mile widziane.',
     fakePhotoUrl: martaTomImg,
     realName: 'Marta T.',
     realAge: 28,
@@ -180,10 +181,10 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     id: 'candidate-marta',
     fakeName: 'Aleksander',
     fakeAge: 27,
-    fakeJob: 'Fotograf & Twórca wideo',
+    fakeJob: 'Prawnik',
     fakeLocation: 'Katowice / Śląsk',
     fakeBio:
-      'Łapię kadry i ulotne momenty w podróży 📸. W weekendy górskie szlaki albo kajak. Kawa i spacer bez patrzenia na zegarek – napisz.',
+      'Na co dzień żyję między paragrafami ⚖️, ale po pracy zdecydowanie wolę góry, dobrą rozmowę i spontaniczne plany. Kawa i spacer bez patrzenia na zegarek – napisz.',
     fakePhotoUrl: martaImg,
     realName: 'Marta',
     realAge: 27,
@@ -193,16 +194,17 @@ export const INITIAL_CANDIDATES: Candidate[] = [
 
   {
     id: 'candidate-pysia',
-    fakeName: 'Filip',
+    fakeName: 'Mikołaj',
     fakeAge: 29,
-    fakeJob: 'Architekt krajobrazu',
+    fakeJob: 'Architekt',
     fakeLocation: 'Zakopane / Warszawa',
     fakeBio:
-      'Złoty chłopak z zamiłowaniem do architektury i szybkiej jazdy 🏎️. Zawsze mam w kieszeni plan B i bilet na festiwal.',
+      'Projektuję przestrzenie, w których dobrze się żyje 🏠. Po pracy najchętniej uciekam w góry, szukam inspiracji i dobrego jedzenia. Zawsze mam jakiś plan, choć nie zawsze go realizuję.',
     fakePhotoUrl: pysiaImg,
     realName: 'Pysia',
     realAge: 26,
     realRole: 'Królowa Wieczoru Panieńskiego 👑💄',
     realPhotoUrl: pysiaRealImg,
   },
+
 ];
